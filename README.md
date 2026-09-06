@@ -33,7 +33,7 @@ warning/caution boxes.
 ]
 ```
 
-Run `typst init @preview/aviation-checklist` to start a new project from
+Run `typst init @preview/procedure-checklist` to start a new project from
 the bundled template.
 
 ## Reference
