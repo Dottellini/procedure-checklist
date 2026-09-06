@@ -3,7 +3,7 @@
 //  Requires Typst 0.12 or newer.
 //
 //  Usage:
-//    #import "@preview/aviation-checklist:0.1.0": *
+//    #import "@preview/procedure-checklist:0.1.0": *
 //    #show: checklist.with(title: "Cessna 152", paper: "a4")
 //    #section("Before Start")[
 //      #item("Parking Brake", "SET")
