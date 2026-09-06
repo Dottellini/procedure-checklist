@@ -38,8 +38,8 @@
     width: 100%,
     breakable: false,
     inset: (left: indent),
-    above: 0.18em,
-    below: 0.18em,
+    above: 0.5em,
+    below: 0.5em,
     context {
       let pre = if _numbered.get() {
         box(width: 1.6em, align(right, str(_n.get().first()) + "."))
