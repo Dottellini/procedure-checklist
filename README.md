@@ -1,4 +1,4 @@
-# aviation-checklist
+# procedure-checklist
 
 A simple, dotted-leader checklist layout for aircraft (or other) procedure
 checklists, built for Typst. Optimized for A4 and A5 paper, with optional
@@ -8,7 +8,7 @@ warning/caution boxes.
 ## Usage
 
 ```typ
-#import "@preview/aviation-checklist:0.1.0": *
+#import "@preview/procedure-checklist:0.1.0": *
 
 #show: checklist.with(
   title: "Cessna 152 Checklist",
