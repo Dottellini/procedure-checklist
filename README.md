@@ -5,6 +5,8 @@ checklists, built for Typst. Optimized for A4 and A5 paper, with optional
 two-column layout, checkboxes, numbered steps, and highlighted
 warning/caution boxes.
 
+![Example image of the Template](https://github.com/Dottellini/procedure-checklist/blob/main/thumbnail.png?raw=true)
+
 ## Usage
 
 ```typ
