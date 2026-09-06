@@ -64,47 +64,47 @@
 // ============================================================
 //  sub() - sub-line / clarification below an item
 // ============================================================
-#let sub(body, indent: 1.8em) = block(
+#let sub(body, indent: 1.8em, font-size: 0.88em) = block(
   width: 100%,
   inset: (left: indent),
   above: 0.05em,
   below: 0.2em,
-  text(size: 0.88em, body),
+  text(size: font-size, body),
 )
 
 // ============================================================
 //  note() - small italic remark
 // ============================================================
-#let note(body, indent: 1.8em) = block(
+#let note(body, indent: 1.8em, font-size: 0.85em) = block(
   width: 100%,
   inset: (left: indent),
   above: 0.1em,
   below: 0.25em,
-  text(size: 0.85em, style: "italic", body),
+  text(size: font-size, style: "italic", body),
 )
 
 // ============================================================
 //  warn()    - highlighted note (yellow background)
 //  caution() - warning box (red outline)
 // ============================================================
-#let warn(body, fill: rgb("#fff2a8")) = block(
+#let warn(body, fill: rgb("#fff2a8"), font-size: 0.85em) = block(
   width: 100%,
   fill: fill,
   inset: (x: 4pt, y: 3pt),
   radius: 1.5pt,
   above: 0.35em,
   below: 0.35em,
-  text(size: 0.85em, weight: "bold", body),
+  text(size: font-size, weight: "bold", body),
 )
 
-#let caution(body, color: rgb("#c0202a")) = block(
+#let caution(body, color: rgb("#c0202a"), font-size: 0.85em) = block(
   width: 100%,
   stroke: 0.8pt + color,
   inset: (x: 5pt, y: 4pt),
   radius: 1.5pt,
   above: 0.4em,
   below: 0.4em,
-  text(size: 0.85em, weight: "bold", fill: color, body),
+  text(size: font-size, weight: "bold", fill: color, body),
 )
 
 // ============================================================
