@@ -6,6 +6,7 @@
   paper: "a4",        // "a5" -> automatically single-column and smaller
   // cols: 2,         // override the column count manually
   // boxes: true,     // add a checkbox before every item
+  // base-size: 14pt, // Set base font-size for the document
   accent: rgb("#1b3a6b"),
   version: "1.0",
   footer: "Cessna 152 - Normal Procedures",
@@ -59,7 +60,7 @@
   #item("Throttle", "~ 1,000 RPM")
 ]
 
-// --- example of a numbered section (F-16 style) ---
+// --- example of a numbered section ---
 #section(
   "Quick Start-Up",
   numbered: true,
