@@ -86,3 +86,11 @@
   #item("Master Switch", "OFF")
   #item("Flaps", "AS REQUIRED")
 ]
+
+#section("Collection of all Elements in this Template")[
+  #item("This is a regular Item", "It really is!")
+  #sub[This is a sub-item, which can be used to add additional information to the parent item.]
+  #note[This is a note]
+  #warn[This is a warning]
+  #caution[This is a caution field]
+]
